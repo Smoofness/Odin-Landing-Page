@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.intro {
+display: flex;
+flex-direction: column;
+background-color: #1F2937;
+padding: 30px 100px 130px 130px;
+}
+
+.header {
+ display: flex; 
+ flex-direction: row;
+ font-size: 24px;
+ color: #F9FAF8;
+ justify-content: space-between;
+ margin-bottom: 100px;
+ font-weight: bold;
+
+
+ 
+}
+
+.links {
+ display: flex;
+ font-size: 18px;
+ color: #E5E7EB;
+ gap: 18px;
+ font-weight: normal;
+ 
+}
+
+.this {
+display: flex;
+justify-content: space-between;
+
+
+
+
+}
+
+img {
+ flex: auto;
+ width: auto;
+ height: 226px;
+
+}
+
+.awesome {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 850;
+    max-width: 400px;
+
+}
+
+#sub {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    font-weight: 100;
+    flex-wrap: wrap;
+}
+
+.awesome button {
+ background-color: #3882F6;
+ border-radius: 4px;
+ border: none;
+ color: white;
+ height: 30px;
+ width: 100px;
+}
+
+.info{ 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 48px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 850;
+    color: #1F2937;
+}
+
+.images {
+    display:flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 64px;
+
+}
+
+.four{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: 18px;
+    color: gray;
+    align-items: center;
+    
+}
+
+.four img{
+    border-radius: 8px;
+    margin: auto;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 128px 300px;
+}
+
+.testimonial {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quoter{
+    align-self: flex-end;
+    font-weight: bold;
+    
+}
+
+.action {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    
+    
+}
+.callcontain {
+    display: flex;
+    padding: 100px 200px;
+    background-color: #3882F6;
+    gap: 128px;
+    justify-content: space-between;
+    border-radius: 16px;
+    
+
+}
+
+.call {
+ display:flex;
+ flex-direction: column;
+ color: white;
+ font-size: 24px;
+ font-weight: bold;
+ 
+}
+
+.subcall{
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.callcontain button{
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: 2px solid white;
+    align-self: flex-end;
+    
+}
+
+.footer {
+    display:flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 450px;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+}
+
+
+
